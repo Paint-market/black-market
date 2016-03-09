@@ -1,0 +1,20 @@
+{
+  "name": "black-market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paint-market/black-market.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paint-market/black-market/issues"
+  },
+  "homepage": "https://github.com/Paint-market/black-market#readme"
+}
