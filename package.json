@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --content-base public --inline --hot",
     "test": "mocha --compilers .:test/compiler.js test/*test.js",
-    "startexpress": "nodemon ./server/server",
+    "server": "nodemon ./server/server",
     "build": "webpack"
   },
   "repository": {
@@ -29,6 +29,7 @@
     "backbone-collection": "^1.0.10",
     "backbone-model": "^1.0.10",
     "backbone-super-sync": "^1.1.1",
+    "body-parser": "^1.15.0",
     "chai": "^3.5.0",
     "css-loader": "^0.15.1",
     "domready": "^1.0.8",
