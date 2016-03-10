@@ -4,7 +4,9 @@
   "description": "",
   "main": "public.js",
   "scripts": {
-    "start": "nodemon ./server/server",
+    "start": "webpack-dev-server --content-base public --inline --hot",
+    "test": "mocha --reporter nyan",
+    "startexpress": "nodemon ./server/server",
     "build": "webpack"
   },
   "repository": {
