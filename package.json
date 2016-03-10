@@ -39,6 +39,8 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "style-loader": "^0.12.3",
-    "webpack": "^1.12.14"
+    "superagent": "^1.8.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }
