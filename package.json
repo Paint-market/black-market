@@ -4,7 +4,7 @@
   "description": "",
   "main": "public.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./server/server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Paint-market/black-market/issues"
   },
-  "homepage": "https://github.com/Paint-market/black-market#readme"
+  "homepage": "https://github.com/Paint-market/black-market#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nodemon": "^1.9.1"
+  }
 }
