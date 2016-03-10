@@ -4,7 +4,8 @@
   "description": "",
   "main": "public.js",
   "scripts": {
-    "start": "nodemon ./server/server"
+    "start": "nodemon ./server/server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,24 @@
   },
   "homepage": "https://github.com/Paint-market/black-market#readme",
   "dependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "backbone": "^1.3.1",
+    "backbone-collection": "^1.0.10",
+    "backbone-model": "^1.0.10",
+    "backbone-super-sync": "^1.1.1",
+    "css-loader": "^0.15.1",
+    "domready": "^1.0.8",
+    "enzyme": "^2.1.0",
     "express": "^4.13.4",
-    "nodemon": "^1.9.1"
+    "lodash": "^4.6.1",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.12.14"
   }
-} 
+}
