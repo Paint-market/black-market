@@ -1,14 +1,16 @@
+require('./testdom')('<html><body></body></html>')
+var React = require('react/addons')
 var Card = require('../lib/components/card')
 var expect = require('chai').expect
 var shallow = require('enzyme').shallow
 var mount = require('enzyme').mount
 
 var card = {
-   "userID": 30,
-   "userName": "Michael Jackson",
-   "userEmail": "mj@gmail.com",
-   "money": 1000,
-   "password_hash": "asflkwenoi893"
+  "userID": 30,
+  "userName": "Michael Jackson",
+  "userEmail": "mj@gmail.com",
+  "money": 1000,
+  "password_hash": "asflkwenoi893"
 }
 
 describe('card', function() {
