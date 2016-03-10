@@ -1,0 +1,35 @@
+{ "users": [
+ {
+   "userID": 19,
+   "userName": "James Brown",
+   "money": 1000,
+   "artURL": "http://www.fillmurray.com/400/400",
+   "value": "$400",
+   "artistName": "Jason Server",
+   "paintingId": 124234,
+   "ownerId": 23,
+   "ownerName": "Howard Smith"
+ },
+ {
+   "userID": 30,
+   "userName": "Michael Jackson",
+   "money": 1000,
+   "artURL": "http://www.fillmurray.com/400/400",
+   "value": "$200",
+   "artistName": "Joseph Quested",
+   "paintingId": 23332,
+   "ownerId": 25,
+   "ownerName": "Richard Joe"
+ },
+ {
+   "userID": 10,
+   "userName": "John Denver",
+   "money": 1000,
+   "artURL": "http://www.fillmurray.com/400/400",
+   "value": "$200",
+   "artistName": "Ashley Stanbridge",
+   "paintingId": 34342,
+   "ownerId": 21,
+   "ownerName": "Anna Blackwell"
+ }
+] }
