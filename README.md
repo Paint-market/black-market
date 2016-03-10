@@ -1,3 +1,3 @@
 # black-market
 
-**Nick is lame lol**
+Trading of dubious legitimacy.
