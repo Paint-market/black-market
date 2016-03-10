@@ -9,6 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/JSXTransformer.js'></script>
+   <script src='//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react-with-addons.js'></script>
+   <script type="text/jsx" src='/js/react-lightbox.jsx'></script>
 
     <title>3 Col Portfolio - Start Bootstrap Template</title>
 
@@ -59,6 +62,51 @@
         </div>
         <!-- /.container -->
     </nav>
+
+
+    <!-- lightbox Test -->
+    <body>
+    <div id='react-canvas'></div>
+    <script type="text/jsx">
+        /** @jsx React.DOM */
+        var ToggleButton = React.createClass({
+            render: function(){
+                return(<button onClick={this.props.openLightbox}>Open Lightbox</button>);
+            }
+        });
+
+        var MyPanel = React.createClass({
+            onClickSave: function(){
+                alert('saved!');
+                this.props.closeLightbox();
+            },
+            render: function(){
+                return (
+                    <div>
+                        <h3>My Panel</h3>
+                        <hr />
+                        <textarea placeholder='Type something here...'></textarea>
+                        <hr />
+                        <button onClick={this.onClickSave}>Save</button>
+                    </div>
+                );
+            }
+        });
+        React.renderComponent(
+            <Lightbox>
+                <LightboxTrigger>
+                    <ToggleButton />
+                </LightboxTrigger>
+                <LightboxModal>
+                    <MyPanel />
+                </LightboxModal>
+            </Lightbox>,
+            document.getElementById('react-canvas')
+        );
+    </script>
+</body>
+
+        <!--Test End  -->
 
     <!-- Page Content -->
     <div class="container">
