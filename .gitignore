@@ -1,4 +1,7 @@
 node_modules
 bundle.js
+<<<<<<< HEAD
+=======
 npm-debug.log
 .DS_Store
+>>>>>>> c4ad7812a21f9b68cca93768ea8ad23c5cd60991
