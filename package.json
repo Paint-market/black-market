@@ -5,8 +5,8 @@
   "main": "public.js",
   "scripts": {
     "start": "webpack-dev-server --content-base public --inline --hot",
-    "test": "mocha --reporter nyan",
-    "startexpress": "nodemon ./server/server",
+    "test": "mocha --compilers .:test/compiler.js test/*test.js",
+    "server": "nodemon ./server/server",
     "build": "webpack"
   },
   "repository": {
@@ -29,6 +29,8 @@
     "backbone-collection": "^1.0.10",
     "backbone-model": "^1.0.10",
     "backbone-super-sync": "^1.1.1",
+    "body-parser": "^1.15.0",
+    "chai": "^3.5.0",
     "css-loader": "^0.15.1",
     "domready": "^1.0.8",
     "enzyme": "^2.1.0",
@@ -37,7 +39,9 @@
     "mocha": "^2.4.5",
     "nodemon": "^1.9.1",
     "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-tools": "^0.13.3",
     "style-loader": "^0.12.3",
     "superagent": "^1.8.0",
     "webpack": "^1.12.14",
